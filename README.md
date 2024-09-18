@@ -9,6 +9,8 @@
 - [Операционная система](#Операционная-система)
 - [Интернет](#Интернет)
 - [GameDev](#GameDev)
+- [Базы данных (БД)](#Базы-данных-(БД))
+- [Аппаратное обеспечение](#Аппаратное-обеспечение) 
 
 # Базовые термены
 
@@ -210,4 +212,45 @@
 | level design                 | проектирование уровней                               | "Good **level design** ensures that each level provides a unique and engaging experience." |
 | tilemap                      | тайлмап (сеточный набор плиток для создания уровней) | "Use a **tilemap** to efficiently design and manage the game environment." |
 | user interface (UI)          | пользовательский интерфейс                           | "Design a clear and intuitive **user interface** for the game’s menus and controls." |
-| viewport                     | видоискатель (область отображения игрового мира)     | "Adjust the **viewport** to ensure that the camera shows the correct part of the game world." |
+| viewport                     | видоискатель (область отображения игрового мира)     | “Adjust the viewport to ensure that the camera shows the correct part of the game world.”
+| blueprint         | чертеж, схема                      | “Use a blueprint to define the behavior of game elements.” |
+| particle system   | система частиц                    | “Create a particle system to simulate fire effects.”     |
+| hitbox            | хитбокс, зона столкновения         | “Adjust the hitbox to ensure accurate collision detection.” |
+| input             | ввод                               | “Handle user input to control the character’s movement.” |
+| NPC (Non-Player Character) | непис (неигровой персонаж)        | “Design an NPC that provides quests to the player.”      |
+| quest             | задание, квест                     | “Implement a quest system to track player objectives.”   |
+| rigging           | риггинг (создание скелета модели)  | “Use rigging to animate the character’s skeleton.”       |
+| spawn             | появляться, порождать              | “Program the enemy to spawn at random locations.”        |
+| sound effect      | звуковой эффект                    | “Add a sound effect to enhance the explosion animation.” |
+| game loop         | игровой цикл                       | “Optimize the game loop to improve performance.”         |
+
+# Базы данных (БД)
+
+| английский           | русский                                                                        | Пример использования                                               |
+| -------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| column               | колонка                                                                        | "Add a new **column** for user email addresses in the database."   |
+| database             | база данных, БД                                                                | "Store all the user information in the **database**."              |
+| drop, delete, remove | удалить, убрать                                                                | "Use the **DELETE** command to remove outdated records."           |
+| index                | индекс (например, поисковый индекс БД)                                         | "Create an **index** to speed up search queries in the database."  |
+| insert               | вставить (например, данные в БД)                                               | "Use the **INSERT** command to add new records to the table."      |
+| join                 | объединить (например, данные нескольких таблиц)                                | "Use an **INNER JOIN** to combine data from two related tables."   |
+| limit                | ограничение                                                                    | "Apply a **LIMIT** to the query to return only 10 results."        |
+| query                | запрос                                                                         | "Run a **query** to fetch all user data from the database."        |
+| row                  | строка                                                                         | "Each **row** in the table represents a single user."              |
+| select               | выбрать (например, данные из БД)                                               | "Use the **SELECT** statement to retrieve data from the database." |
+| split                | разделить (например, строку по символу запятой)                                | "Use the **split** function to separate values in the CSV file."   |
+| storage              | хранилище                                                                      | "Ensure enough **storage** is allocated for the database."         |
+| table                | таблица (например, в базе данных)                                              | "Create a **table** to store product information."                 |
+
+# Аппаратное обеспечение 
+
+| английский                   | русский                                                       | Пример использования                                            |
+| ---------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- |
+| CPU, Central Processing Unit | процессор                                                     | "The **CPU** handles all the processing tasks in the computer."  |
+| RAM, Random Access Memory    | ОЗУ (оперативное запоминающее устройство), оперативная память | "Install more **RAM** to improve the system's performance."      |
+| device                       | устройство                                                    | "Connect the new **device** to your computer via USB."           |
+| disk                         | диск                                                          | "Save the files to your external **disk** for backup."           |
+| keyboard                     | клавиатура                                                    | "Use a mechanical **keyboard** for better typing feedback."      |
+| laptop                       | ноутбук                                                       | "She uses a **laptop** for work and gaming."                     |
+| monitor, screen              | монитор, экран                                                | "The **monitor** resolution affects how clear the image appears."|
+| mouse                        | мышь                                                          | "A wireless **mouse** provides more freedom of movement."        |
